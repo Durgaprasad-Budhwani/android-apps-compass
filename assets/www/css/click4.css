@@ -1,0 +1,76 @@
+img {
+    object-fit: cover;
+    overflow: hidden
+}
+
+#content {
+    text-align: center;
+    z-index: 999;
+    position: relative; /* puts container in front of distance */
+    margin: 0;
+    padding: 0;
+    /*position:absolute; top:0; right:0; bottom:0; left:0; margin:auto;*/
+}
+
+.ui-header, #header {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    background-color: #24364C;
+    background-image: -webkit-linear-gradient(top, #5A81AF, #304864 2%, #192533);
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color: black;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Helvetica Neue', HelveticaNeue, Helvetica-Neue, Helvetica, 'BBAlpha Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    text-spacing: none;
+    background-color: #24364C;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5A81AF), color-stop(2%, #304864), color-stop(100%, #192533));
+    background-image: -webkit-linear-gradient(#5A81AF, #304864 2%, #192533);
+    background-image: linear-gradient(#5A81AF, #304864 2%, #192533);
+    border-color: black;
+    color: white;
+    margin-bottom: 1%;
+    text-align: center;
+    position: fixed;
+    height: 35px;
+    margin-bottom: 35px;
+    padding-top: 8px;
+}
+
+
+.ui-header h1.ui-title {
+    margin-left: 0;
+    margin-right: 0;
+    text-spacing: none;
+}
+
+
+div {
+
+}
+
+.ui-content {
+    text-align: center;
+    position: relative;
+    margin-top: -42px;
+}
